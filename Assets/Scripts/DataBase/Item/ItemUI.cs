@@ -72,9 +72,14 @@ public class ItemUI : GameMaster
 			ToggleItemList();
 		}
 		if(showItemList && CharacterItems.Instance.CarryItem.Count !=0)
+		{
 			WaitForKey();
-		else if(showItemList)
 			WaitForKey2();
+		}
+		else if(showItemList)
+		{
+			WaitForKey2();
+		}
 	}
 	void WaitForKey2()
 	{

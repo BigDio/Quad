@@ -188,7 +188,7 @@ public class SelectionBox : GameMaster
 			if(nowLine < 0)
 				nowLine = count - 1;
 		}
-		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetButtonDown("Use"))
+		if(Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetButtonDown("Jump"))
 		{
 			_GUISFX.PlayPickSound();
 			choosed = true;

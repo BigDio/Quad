@@ -162,7 +162,7 @@ public class ProDialog : GameMaster
 	{
 		while(state != State.Done)
 		{
-			if(Input.GetButtonDown("Skip") || Input.GetButtonDown("Use"))
+			if(Input.GetButtonDown("Skip") || Input.GetButtonDown("Use") || Input.GetButtonDown("Jump"))
 			{
 				clicked = true;
 			}

@@ -1,18 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ProDialog.cs">
-    <Files>
-      <File FileName="Assets\Scripts\ProDialog.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DataBase\Item\ItemUI.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DataBase\Item\Item.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StoryBoard.cs" Line="24" Column="19" />
-      <File FileName="Assets\Scripts\VersionControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ProDialog.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GamePause.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameStrings.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

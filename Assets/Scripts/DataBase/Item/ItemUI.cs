@@ -38,10 +38,10 @@ public class ItemUI : GameMaster
 	private int listHeight = 305;
 	private int offset = 5;
 	private int titleHeight = 50;
-	private int descriptionHeight = 92;
+	private int descriptionHeight = 148;
 	private int selectionJumpOffset = 32;
 	private int selectionBoxHeight = 37;
-	private int iconSize = 72;
+	private int iconSize = 128;
 
 	public int iconNum = 8;
 
@@ -287,6 +287,10 @@ public class ItemUI : GameMaster
 		if(totalPages > 0)
 		{
 			itemTitleString = "<- 道具列表 第" + (nowPage + 1).ToString() + "/" + (totalPages+1).ToString() + "页 ->";
+		}
+		else
+		{
+			itemTitleString = "道具列表";
 		}
 		int temp = 0;//物品列表中第几个物品
 		int nowIndex = nowPage * 9 + nowLine; //光标是第几个物品
